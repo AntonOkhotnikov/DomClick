@@ -2,12 +2,12 @@
 Text classification baseline in jupyter-notebooks
 
 ### Files description:
-**explore_dataset.ipynb** - general overview of a dataset including the length of the sentences
-**embedding.ipynb** - includes text tokenization, removing outliers (frequent and unique words), Bag Of Words (BOW) and Term Frequency - Inverse Document Frequency (TF-IDF) embedding
-**NaiveBayes.ipynb** - implements a Naive Bayes probabilistic model to the BOW representation of a dataset
-**CNN_LSTM_classifier.ipynb** - implements a Deep Learning model using the CNN and Bidirectional LSTM on the same BOW embedding. Uses only sentences with length of 300 or less (~93% of a dataset)
-**decomposition.ipynb** - performs matrix factorization (PCA and SVD) on the any embedding (BOW or TF-IDF). Also implements Fisher Vector features engineering by using the GMM model (code is borrowed from reference below)
-**downsampling_and_classification.ipynb** - implements the downsampling of the decomposed dataset, data normalization and classification with Boosting, Bagging and etc.
+* **explore_dataset.ipynb** - general overview of a dataset including the length of the sentences
+* **embedding.ipynb** - includes text tokenization, removing outliers (frequent and unique words), Bag Of Words (BOW) and Term Frequency - Inverse Document Frequency (TF-IDF) embedding
+* **NaiveBayes.ipynb** - implements a Naive Bayes probabilistic model to the BOW representation of a dataset
+* **CNN_LSTM_classifier.ipynb** - implements a Deep Learning model using the CNN and Bidirectional LSTM on the same BOW embedding. Uses only sentences with length of 300 or less (~93% of a dataset)
+* **decomposition.ipynb** - performs matrix factorization (PCA and SVD) on the any embedding (BOW or TF-IDF). Also implements Fisher Vector features engineering by using the GMM model (code is borrowed from reference below)
+* **downsampling_and_classification.ipynb** - implements the downsampling of the decomposed dataset, data normalization and classification with Boosting, Bagging and etc.
 
 ### Order
 1. explore_dataset
