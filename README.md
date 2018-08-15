@@ -12,9 +12,9 @@ Text classification baseline in jupyter-notebooks
 ### Order
 1. explore_dataset
 2. embedding
-3a. NaiveBayes
-3b. CNN_LSTM_classifier
-3c. decomposition ---> downsampling_and_classification
+	* 3a. NaiveBayes
+	* 3b. CNN_LSTM_classifier
+	* 3c. decomposition ---> downsampling_and_classification
 
 After **embedding** the flow goes in three different approaches:
 * Probabilistic model - **NaiveBayes** 
