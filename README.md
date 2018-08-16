@@ -22,6 +22,7 @@ After **embedding** the flow goes in three different approaches:
 * **Decomposition**, **downsampling_and_classification** - includes SVD, PCA decomposition, GMM model for feature engineering, balancing the dataset and classification using gradient boosting, bagging, logistic regression, linear discriminant analysis and MLP.
 
 ### To install the environment
+`conda config --append channels conda-forge`
 `conda create -n "name_of_new_environment" --file package-list.txt`
 
 ### Conclusion
